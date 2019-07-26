@@ -1,0 +1,13 @@
+{
+	"name" : "RabbitMQSourceConnector1",
+	"config" : {
+	 "connector.class" : "io.confluent.connect.rabbitmq.RabbitMQSourceConnector",
+	 "tasks.max" : "1",
+	 "kafka.topic" : "rabbitmq",
+	 "rabbitmq.queue" : "myqueue",
+	  "rabbitmq.host" : "rabbit",
+	  "rabbitmq.username" : "guest",
+	  "rabbitmq.password" : "guest"
+	}
+  }
+  
